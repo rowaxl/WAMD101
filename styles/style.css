@@ -95,4 +95,5 @@ h3 {
 
 .darkmode-ignore {
   z-index: 500;
+  position: relative;
 }
