@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular');
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+a, h1, h2, h3, i, p, li {
+  color: rgba(0,0,0,.84);
+  text-rendering: optimizeLegibility;
+  font-family: "Roboto"
+}
+
+h3 {
+  margin-top: 25px;
+}
+
+.title {
+  text-align: center;
+}
+
+.wrapper {
+  width: 75vw;
+  position: relative;
+  margin: auto;
+}
+
+.summary {
+  display: inline;
+}
+
+.grid_wrap {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto;
+}
+
+.grid_header {
+  grid-column-start: 1;
+}
+
+.grid_row {
+  display: grid;
+}
+
+#profile_photo {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.icon_vertical {
+  vertical-align: bottom;
+}
+
+.img_icon {
+  width: 24px;
+}
+
+.grid_photo {
+  grid-column: 1 / span 2;
+}
+
+.grid_description {
+  grid-column: 3 / span 3;
+  padding-left: 10px;
+  align-self: end;
+}
+
+.grid_main_column {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.grid_sub_column {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  padding-left: 15px;
+  border-left: #bbb dashed 1px;
+}
+
+.darkmode--activated p, .darkmode--activated li {
+  color: #000;
+}
+
+.darkmode-layer, .darkmode-toggle {
+  z-index: 100;
+}
+
+.darkmode-ignore {
+  z-index: 500;
+}
