@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background-color: #ddd;
+}
+
+h1 {
+  text-align: center;
+}
+
+#content {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  border: 1px #000 solid;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px #333;
+  padding: 10px 25px;
+}
+
+.signature {
+  font-style: italic;
+}
+
+td:nth-child(1) {
+  text-align: right;
+  initial-letter: 1;
+}
+
+td:nth-child(1)::first-letter {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+td:nth-child(2) {
+  text-align: left;
+}
