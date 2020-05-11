@@ -51,7 +51,7 @@ h3 {
 
 #profile_photo {
   width: 100%;
-  min-width: 100px;
+  min-width: 120px;
   border-radius: 5px;
   box-shadow: 1px 1px 3px #000;
 }
